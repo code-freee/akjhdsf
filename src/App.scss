@@ -1,0 +1,13 @@
+// @import url("./assets/logo/owl-logo-background.png");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  // background-image: url("owl-logo-background.png");
+}
