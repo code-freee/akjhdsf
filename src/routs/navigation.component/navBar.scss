@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); //font-family: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.navBarDiv {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-color: aqua;
+
+  .linkNav {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    // background-color: aquamarine;
+    height: 80px;
+    align-items: center;
+
+    .linkDecor {
+      text-decoration: none;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: 590;
+      color: black;
+      // margin: 5px;
+      padding: 3px 5px;
+
+      &:hover {
+        border: 2px solid rgba(0, 0, 0, 0.382);
+        border-radius: 5px;
+        font-size: 19px;
+      }
+    }
+
+    .cartLink {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6em;
+      cursor: pointer;
+      color: black;
+
+      span {
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        top: 7.5px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .logoImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    img {
+      width: 80px;
+    }
+    span {
+      font-size: 32px;
+      font-family: "Pacifico", cursive;
+    }
+  }
+
+  .emptyDiv {
+    flex: 4;
+  }
+}

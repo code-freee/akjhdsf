@@ -1,0 +1,48 @@
+.catelogCard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.642);
+  border-radius: 4px;
+
+  &:hover {
+    .shopnow {
+      opacity: 0.9;
+    }
+    & img {
+      transform: scale(1.1);
+    }
+  }
+
+  img {
+    width: 28em;
+    transition: all 0.5s ease-in-out;
+  }
+  .shopnow {
+    opacity: 0.5;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    border-radius: 8px;
+    width: 9em;
+    padding: 5px;
+    background-color: rgba(246, 246, 246, 0.815);
+    color: black;
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+    h4 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
